@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('partials/head') %> <!-- includes Bootstrap, Font Awesome, custom CSS -->
+  <title>Portfolio</title>
+</head>
+<body>
+
+  <%- include('partials/header') %>
+
+<div class="container my-5">
+  <h2 class="text-center mb-4">My <span class="text-red">Portfolio</span></h2>
+  <div class="row">
+    <!-- First Project Card -->
+    <div class="col-md-6 mb-4">
+      <div class="card bg-dark text-white project-card">
+        <img src="/images/project.png" class="card-img-top project-image" alt="PC Build Project">
+        <div class="card-body">
+          <h5 class="card-title text-uppercase">PC Build Project</h5>
+          <p class="card-text">Built a custom high-performance PC optimized for multitasking, streaming, video recording, and processing.</p>
+        </div>
+      </div>
+    </div>
+    <!-- Second Project Card -->
+    <div class="col-md-6 mb-4">
+      <div class="card bg-dark text-white project-card">
+        <img src="/images/todopic.png" class="card-img-top project-image" alt="To-Do List Project">
+        <div class="card-body">
+          <h5 class="card-title text-uppercase">To-Do List Project</h5>
+          <p class="card-text">Made a To-do list with Tkinter GUI on Python. It can add tasks, delete, save, or load old task lists.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<%- include('partials/footer') %>
+
+
+</body>
+</html>

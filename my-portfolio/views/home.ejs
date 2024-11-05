@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('partials/head') %> <!-- Includes the head section with CSS links -->
+  <body>
+    <%- include('partials/header') %> <!-- Includes the navigation header -->
+
+    <!-- Home Page Content -->
+    <div class="container-fluid section-padding" id="home">
+      <div class="row align-items-center min-vh-100">
+        <!-- Left Column for Text -->
+        <div class="col-md-6 text-center text-md-left">
+          <h1 class="display-2">Hello, I am
+          <span class="text-red">Daniel Okoro</span></h1>
+          <a href="/projects" class="btn btn-custom">View My Portfolio  <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        
+        <!-- Right Column for Image -->
+        <div class="col-md-6 d-flex justify-content-center">
+          <img src="/images/mainpic.JPG" alt="Main Picture" class="img-fluid " style="max-width: 300px;">
+        </div>
+      </div>
+    </div>
+
+    <%- include('partials/footer') %> <!-- Includes the footer -->
+  </body>
+</html>

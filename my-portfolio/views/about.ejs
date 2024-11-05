@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('partials/head') %> <!-- includes Bootstrap, Font Awesome, custom CSS -->
+  <title>About</title>
+</head>
+<body>
+
+  <%- include('partials/header') %> <!-- includes navigation -->
+
+  <div class="container" id="about">
+    <div class="row py-5">
+      <!-- Left Column for Video or Image -->
+      <div class="col-md-6">
+        <img src="/images/aboutpic.png" class="card-img-top project-image" alt="About Picture">
+      </div>
+      <!-- Right Column for Text -->
+      <div class="col-md-6 d-flex flex-column justify-content-center">
+        <h2 class="display-4"><span class="text-red">About</span> Me</h2>
+        <p>I am a second-year Networking and IT student with a passion for technology and innovation. Outside of my studies, I have a fascination with watches, appreciating their craftsmanship and precision. I thrive on challenges and love turning ideas into reality.</p>
+        <a href="/videos/introvideo.mp4" target="_blank" class="btn btn-custom"><i class="fa-brands fa-youtube"></i> Watch Video</a>
+      </div>
+    </div>
+  </div>
+
+  <%- include('partials/footer') %> <!-- includes footer -->
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "w-s-ass-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "my-portfolio/app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "express": "4.21.1",
+    "jquery": "^3.7.1"
+  }
+}
