@@ -8,34 +8,51 @@
 
   <%- include('partials/header') %>
 
-<div class="container my-5">
-  <h2 class="text-center mb-4">My <span class="text-red">Portfolio</span></h2>
-  <div class="row">
-    <!-- First Project Card -->
-    <div class="col-md-6 mb-4">
-      <div class="card bg-dark text-white project-card">
-        <img src="/images/project.png" class="card-img-top project-image" alt="PC Build Project">
-        <div class="card-body">
-          <h5 class="card-title text-uppercase">PC Build Project</h5>
-          <p class="card-text">Built a custom high-performance PC optimized for multitasking, streaming, video recording, and processing.</p>
+  <div class="container my-5">
+    <h2 class="text-center mb-4">MY <span class="text-red">PORTFOLIO <i class="fa-solid fa-suitcase"></i></span></h2>
+    <div class="row">
+      <!-- First Project Card -->
+      <div class="col-md-6 mb-4">
+        <div class="card bg-dark text-white project-card">
+          <img src="/images/project.png" class="card-img-top project-image" alt="PC Build Project">
+          <div class="card-body">
+            <h5 class="card-title text-uppercase">PC Build <i class="fa-solid fa-desktop"></i></h5>
+            <p class="card-text">Built a custom high-performance PC optimized for multitasking, streaming, video recording, and processing.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Second Project Card -->
+      <div class="col-md-6 mb-4">
+        <div class="card bg-dark text-white project-card">
+          <img src="/images/todopic.png" class="card-img-top project-image" alt="To-Do List Project">
+          <div class="card-body">
+            <h5 class="card-title text-uppercase">To-Do List <i class="fa-thin fa-list"></i></h5>
+            <p class="card-text">Made a To-do list with Tkinter GUI on Python. It can add tasks, delete, save, or load old task lists.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Third Project Card Centered Below -->
+      <div class="col-md-8 offset-md-2 mb-4"> <!-- Centered by adjusting the column width and offset -->
+        <div class="card bg-dark text-white project-card">
+          <img src="/images/thirdproject.png" class="card-img-top project-image" alt="Profile Website Project">
+          <div class="card-body">
+            <h5 class="card-title text-uppercase">Profile Website with CSS <i class="fa-solid fa-laptop"></i></h5>
+            <p class="card-text">Built a fluid website using HTML and CSS for all screen sizes to showcase my projects and introduce myself. Uploaded to GitHub with periodical commits.</p>
+          </div>
         </div>
       </div>
     </div>
-    <!-- Second Project Card -->
-    <div class="col-md-6 mb-4">
-      <div class="card bg-dark text-white project-card">
-        <img src="/images/todopic.png" class="card-img-top project-image" alt="To-Do List Project">
-        <div class="card-body">
-          <h5 class="card-title text-uppercase">To-Do List Project</h5>
-          <p class="card-text">Made a To-do list with Tkinter GUI on Python. It can add tasks, delete, save, or load old task lists.</p>
-        </div>
-      </div>
+
+    <!-- Navigation buttons -->
+    <div class="nav-buttons d-flex justify-content-between mt-4">
+      <a href="/about" class="btn btn-secondary nav-button"><i class="fa-solid fa-arrow-left"></i> Previous Page</a>
+      <a href="/contact" class="btn btn-secondary nav-button">Next Page <i class="fa-solid fa-arrow-right"></i></a>
     </div>
   </div>
-</div>
 
-<%- include('partials/footer') %>
-
+  <%- include('partials/footer') %>
 
 </body>
 </html>

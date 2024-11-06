@@ -80,6 +80,21 @@ body {
   border-radius: 50%;
 }
 
+.nav-button {
+  background-color: crimson; /* Red color */
+  color: white; /* White text */
+  padding: 10px 20px;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+  background-color: darkred; /* Darker shade on hover */
+  color: white;
+}
+
+
 /* About Page Video */
 
 .image-container .main-video {

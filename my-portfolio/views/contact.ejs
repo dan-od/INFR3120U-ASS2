@@ -9,7 +9,7 @@
   <%- include('partials/header') %> <!-- includes navigation -->
 
   <div class="container my-5" id="contact">
-    <h2 class="text-center mb-4">Contact Me</h2>
+    <h2 class="text-center mb-4"><span class="text-red">CONTACT</span> ME <i class="fa-solid fa-address-book"></i></h2>
     <form action="/contact" method="post" class="bg-dark p-4 rounded shadow text-white">
       <div class="mb-3">
         <label for="name" class="form-label">Name</label>
@@ -25,6 +25,11 @@
       </div>
       <button type="submit" class="btn btn-danger w-100">Send Message</button>
     </form>
+
+    <!-- Navigation buttons -->
+    <div class="nav-buttons d-flex justify-content-between mt-4">
+      <a href="/projects" class="btn btn-secondary nav-button"><i class="fa-solid fa-arrow-left"></i> Previous Page</a>
+    </div>
   </div>
 
   <%- include('partials/footer') %> <!-- includes footer -->
